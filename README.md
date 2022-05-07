@@ -21,5 +21,5 @@ Footer.js
 ![UML](./UMLclass26.png)
 
 # Links
-- [PR](https://github.com/ibrahimalaqoul/resty/pull/1)
+- [PR](https://github.com/ibrahimalaqoul/resty/pull/3)
 - [NETLIFY](https://62763c410a26a10009d6ae77--cosmic-lebkuchen-0225dd.netlify.app/)
