@@ -1,0 +1,47 @@
+.form {
+    display: flex;
+    flex-direction: column;
+
+    .api {
+        .link-api {
+            width: 500px;
+            margin-right: 20px;
+        }
+
+        margin: 20px;
+    }
+
+    .methods {
+        margin-left: 20px;
+
+        .method {
+            margin: 0 20px;
+            font-size: 1.2em;
+            background-color: #EEE;
+
+            &:hover {
+                background-color: rgb(97, 81, 81);
+                color: white;
+                cursor: pointer;
+
+
+            }
+            &:focus {
+                background-color: rgb(179, 53, 53);
+              
+            }
+           
+            textarea {
+                width: 500px;
+                margin: 0 20px;
+                border-radius: 5px;
+                font-size: 1.2em;
+            }
+
+
+        }
+
+
+
+    }
+}
