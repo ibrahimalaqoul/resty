@@ -22,4 +22,4 @@ Footer.js
 
 # Links
 - [PR](https://github.com/ibrahimalaqoul/resty/pull/3)
-- [NETLIFY](https://6276d65c75651d407b7d3500--stunning-twilight-41f2d8.netlify.app/)
+- [NETLIFY](https://6277841775651d27617d33bf--cheery-biscuit-5a68c9.netlify.app/)
