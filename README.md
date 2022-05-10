@@ -22,5 +22,5 @@ Footer.js
 ![UML](./UMLclass26.png)
 
 # Links
-- [PR](https://github.com/ibrahimalaqoul/resty/pull/3)
-- [NETLIFY](https://6277841775651d27617d33bf--cheery-biscuit-5a68c9.netlify.app/)
+- [PR](https://github.com/ibrahimalaqoul/resty/pull/4)
+- [NETLIFY](https://deploy-preview-4--dashing-dango-e20386.netlify.app/)
