@@ -16,6 +16,7 @@ Footer.js
 4. whithin each component i created a div and rendered the component's data.
 5.created scss files for the styling of the components.
 5. added a proxy to the react app.
+6. I A history object is created to store the history of the user ApI requests once the user click on it it will render the data for the user again.
 
 # UML
 ![UML](./UMLclass26.png)

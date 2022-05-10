@@ -5,7 +5,9 @@ import Result from "../result/result";
 import { useState } from "react";
 import axios from "axios";
 
-function Main() {
+
+
+function Main(props) {
     const [result, setResult] = useState({});
     const [data, setData] = useState(null);
     const [headers, setHeaders] = useState({});
@@ -16,19 +18,6 @@ function Main() {
 
     }
 
-    const removeResult = () => {
-        return new Promise((resolve) => setTimeout(resolve, 120000));
-
-    }
-
-    useEffect(() => {
-        removeResult().then(() => {
-            setResult({});
-            setData(null);
-            setHeaders({});
-        })
-    })
-
     useEffect(() => {
         if (loading) {
             Loadingfunction().then(() => {
@@ -36,7 +25,6 @@ function Main() {
             });
         };
     }, [loading]);
-    //   console.log(result);
     const Method = (props) => {
         setResult(props);
     }
@@ -50,11 +38,12 @@ function Main() {
         setData(result);
         var headers = { Headers: response.headers };
         setHeaders(headers);
+      
     }
 
     return (
         <div className="main">
-            <Form methodSend={Method} sendData={sendData} />
+            <Form methodSend={Method} sendData={sendData} setHistory={props.setHistory}  />
             <Result Method={result.method} url={result.url} data={data} headers={headers} loading={loading} />
         </div>
 

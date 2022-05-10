@@ -1,0 +1,25 @@
+.history{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    .data-fetched{
+       border-radius: 5px;
+       background-color: rgb(104, 68, 68);
+       color: rgb(255, 255, 255);
+       overflow: auto;
+       width: 100%;
+       padding: 10px;
+       font-size: 1.2em;
+       margin: 10px;
+    }
+    .span-method{
+        cursor: pointer;
+        color: rgb(117, 13, 13);
+        font-size: 1.2em;
+        &:hover{
+            color: black;
+        }
+        
+    }
+}
